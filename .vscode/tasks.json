@@ -1,0 +1,32 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe build active file ver",
+            "command": "C:\\Program Files\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-g",
+                //"${file}",
+                "${workspaceFolder}\\*.cpp",
+                // "C:\\Users\\lizhsen\\Desktop\\code\\tale.cpp",
+                // "C:\\Users\\lizhsen\\Desktop\\code\\badtale.cpp",
+                "-std=c++11",
+                //"-I","C:\\Users\\lizhsen\\Desktop\\code",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "C:\\Program Files\\mingw64\\bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Generated task by Debugger"
+        }
+    ]
+}
